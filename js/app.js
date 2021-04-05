@@ -73,12 +73,13 @@ default:
 
 let answer4 = prompt('Guess by ansewer yes or no do i Slow with right programes');
 answer4 = answer4.toLocaleLowerCase();
+let helpFedbake= prompt(' how i can be faster in right prorames');
 switch(answer4){
 case 'yes':
 case 'y' :
   // eslint-disable-next-line no-case-declarations
-  let helpFedbake= prompt(' how i can be faster in right prorames');
-  console.log(helpFedbake);
+  
+  
   break;
 case 'no':
 case 'n':
@@ -93,3 +94,4 @@ default:
 
 let userName = prompt('what is your name');
 alert('Wlecom have agood time' + userName );
+console.log(helpFedbake);
