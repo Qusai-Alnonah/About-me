@@ -1,10 +1,15 @@
 'use strict';
+
+let userName = prompt('what is your name');
+alert('Wlecom Now We START Game' + userName );
+
 let answer = prompt('Guess by ansewer yes or no do i like programming');
 answer = answer.toLowerCase();
 switch(answer){
 case 'yes':
 case 'y' :
   alert('Actually i LOVE programmin not just like it');
+  //console.log(answer);
   break;
 case 'no':
 case 'n':
@@ -24,6 +29,7 @@ switch(answer1){
 case 'yes':
 case 'y' :
   alert('Actually i will work harde to be in sha\'a allh');
+  //console.log(answer1);
   break;
 case 'no':
 case 'n':
@@ -35,12 +41,14 @@ case 'maybe':
 default:
   alert('our profit say اعقل وتوكل');
 }
+
 let answer2 = prompt('Guess by ansewer yes or no do i like to help others');
 answer2 = answer2.toLocaleLowerCase();
 switch(answer2){
 case 'yes':
 case 'y' :
   alert('help other make you happy');
+  //console.log(answer2);
   break;
 case 'no':
 case 'n':
@@ -59,6 +67,7 @@ switch(answer3){
 case 'yes':
 case 'y' :
   alert(' NO The Cates very kute animal');
+  //console.log(answer3);
   break;
 case 'no':
 case 'n':
@@ -73,13 +82,11 @@ default:
 
 let answer4 = prompt('Guess by ansewer yes or no do i Slow with right programes');
 answer4 = answer4.toLocaleLowerCase();
-let helpFedbake= prompt(' how i can be faster in right prorames');
+let helpFedbake ='user fedbacke';
 switch(answer4){
 case 'yes':
 case 'y' :
-  // eslint-disable-next-line no-case-declarations
-  
-  
+  helpFedbake = prompt(' how i can be faster in right prorames');
   break;
 case 'no':
 case 'n':
@@ -91,7 +98,5 @@ case 'maybe':
 default:
   alert('you dont like yes or no Qustion as me');
 }
-
-let userName = prompt('what is your name');
-alert('Wlecom have agood time' + userName );
+alert('Have agood time in the Website');
 console.log(helpFedbake);
