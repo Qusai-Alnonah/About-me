@@ -100,8 +100,9 @@ default:
 }
 question4();
 
-
-let answer4 = prompt('Guess by ansewer yes or no do iam Slowly with right programes');
+let answer4 = 'null';
+function question5(){
+ answer4 = prompt('Guess by ansewer yes or no do iam Slowly with right programes');
 answer4 = answer4.toLocaleLowerCase();
 let helpFedbake ='user fedbacke';
 switch(answer4){
@@ -120,6 +121,8 @@ case 'maybe':
 default:
   alert('you dont like yes or no Qustion as me');
 }
+}
+question5()
 
 let answer5='';
 for( let i=0 ; i <= 3&&!(answer5===27);i++ ){
