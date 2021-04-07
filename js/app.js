@@ -44,7 +44,7 @@ default:
 }
 
 let answer2 = prompt('Guess by ansewer yes or no do i like to help others');
-answer2 = answer2.toLocaleLowerCase();
+answer2 = answer2.toLowerCase();
 switch(answer2){
 case 'yes':
 case 'y' :
@@ -64,7 +64,7 @@ default:
 }
 
 let answer3 = prompt('Guess by ansewer yes or no do i hit Animals');
-answer3 = answer3.toLocaleLowerCase();
+answer3 = answer3.toLowerCase();
 switch(answer3){
 case 'yes':
 case 'y' :
@@ -85,11 +85,12 @@ default:
 }
 
 let answer4 = prompt('Guess by ansewer yes or no do iam Slowly with right programes');
-answer4 = answer4.toLocaleLowerCase();
+answer4 = answer4.toLowerCase();
 let helpFedbake ='user fedbacke';
 switch(answer4){
 case 'yes':
 case 'y' :
+  alert(' i will work hared to be faster');
   helpFedbake = prompt(' how i can be faster in right prorames');
   score++;
   break;
@@ -132,11 +133,12 @@ console.log(helpFedbake);
 let color = ['blue', 'green', 'red', 'orange', 'black', 'white', 'yellow' ];
 alert (color);
 let answer6 = prompt('Guess what is my favarite color');
-answer6 = answer6.toLocaleLowerCase();
+answer6 = answer6.toLowerCase();
 for( let i=0 ;(i <=5 &&!(answer6 ==='white') ) ; i++){
 
   switch(answer6 ){
   case 'white':
+    alert('yes this is my favarite color');
     score++;
     break;
 
