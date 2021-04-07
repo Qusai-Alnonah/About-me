@@ -153,7 +153,9 @@ question6();
 
 let color = ['blue', 'green', 'red', 'orange', 'black', 'white', 'yellow' ];
 alert (color);
-let answer6 = prompt('Guess what is my favarite color');
+let answer6 = 'null';
+function question7(){
+ answer6 = prompt('Guess what is my favarite color');
 answer6 = answer6.toLocaleLowerCase();
 for( let i=0 ;(i <=5 &&!(answer6 ==='white') ) ; i++){
 
@@ -173,6 +175,9 @@ if(answer6 === 'white'){
 if(answer6 !== 'white'){
   alert('the right answer is white');
 }
+} 
+question7();
+
 alert('Your score is' + score);
 alert('Have agood time in the Website');
 
