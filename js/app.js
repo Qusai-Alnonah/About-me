@@ -3,7 +3,9 @@ let score =0;
 let userName = prompt('what is your name');
 alert('Wlecom Now We START Game\'' + userName );
 
-let answer = prompt('Guess by ansewer yes or no do i like programming');
+let answer = 'null';
+function question1(){
+answer = prompt('Guess by ansewer yes or no do i like programming');
 answer = answer.toLowerCase();
 switch(answer){
 case 'yes':
@@ -22,6 +24,8 @@ case 'maybe':
 default:
   alert('you dont like yes or no Qustion as me');
 }
+}
+question1();
 
 let answer1 = prompt('Guess by ansewer yes or no do i wont to be agreat Developer in sha\'a allh');
 answer1 = answer1.toLowerCase();
