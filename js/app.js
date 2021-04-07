@@ -3,7 +3,9 @@ let score =0;
 let userName = prompt('what is your name');
 alert('Wlecom Now We START Game\'' + userName );
 
-let answer = prompt('Guess by ansewer yes or no do i like programming');
+let answer = 'null';
+function question1(){
+answer = prompt('Guess by ansewer yes or no do i like programming');
 answer = answer.toLowerCase();
 switch(answer){
 case 'yes':
@@ -22,8 +24,12 @@ case 'maybe':
 default:
   alert('you dont like yes or no Qustion as me');
 }
+}
+question1();
 
-let answer1 = prompt('Guess by ansewer yes or no do i wont to be agreat Developer in sha\'a allh');
+let answer1 = 'null';
+function question2(){
+  answer1 = prompt('Guess by ansewer yes or no do i wont to be agreat Developer in sha\'a allh');
 answer1 = answer1.toLowerCase();
 switch(answer1){
 case 'yes':
@@ -42,9 +48,13 @@ case 'maybe':
 default:
   alert('our profit say اعقل وتوكل');
 }
+}
+question2();
 
-let answer2 = prompt('Guess by ansewer yes or no do i like to help others');
-answer2 = answer2.toLowerCase();
+let answer2 = 'null';
+function question3(){
+answer2 = prompt('Guess by ansewer yes or no do i like to help others');
+answer2 = answer2.toLocaleLowerCase();
 switch(answer2){
 case 'yes':
 case 'y' :
@@ -62,9 +72,13 @@ case 'maybe':
 default:
   alert('you dont like yes or no Qustion as me');
 }
+}
+question3();
 
-let answer3 = prompt('Guess by ansewer yes or no do i hit Animals');
-answer3 = answer3.toLowerCase();
+let answer3 = 'null';
+function question4(){
+ answer3 = prompt('Guess by ansewer yes or no do i hit Animals');
+answer3 = answer3.toLocaleLowerCase();
 switch(answer3){
 case 'yes':
 case 'y' :
@@ -83,9 +97,18 @@ case 'maybe':
 default:
   alert('you dont like yes or no Qustion as me');
 }
+}
+question4();
 
+<<<<<<< HEAD
 let answer4 = prompt('Guess by ansewer yes or no do iam Slowly with right programes');
 answer4 = answer4.toLowerCase();
+=======
+let answer4 = 'null';
+function question5(){
+ answer4 = prompt('Guess by ansewer yes or no do iam Slowly with right programes');
+answer4 = answer4.toLocaleLowerCase();
+>>>>>>> fdf35c3222141df60b02376ca37854ae477ca0c1
 let helpFedbake ='user fedbacke';
 switch(answer4){
 case 'yes':
@@ -104,10 +127,13 @@ case 'maybe':
 default:
   alert('you dont like yes or no Qustion as me');
 }
+}
+question5()
 
-let answer5='';
+let answer5='null';
+function question6(){
 for( let i=0 ; i <= 3&&!(answer5===27);i++ ){
-  let answer5 = prompt('Guess how old am i from 10-30 ');
+   answer5 = prompt('Guess how old am i from 10-30 ');
   answer5= parseInt(answer5);
   if(answer5 === 27){
     score++;
@@ -125,15 +151,23 @@ for( let i=0 ; i <= 3&&!(answer5===27);i++ ){
   }
 }alert('the Correct answer is 27');
 console.log(helpFedbake);
-
+}
+question6();
 
 
 
 
 let color = ['blue', 'green', 'red', 'orange', 'black', 'white', 'yellow' ];
 alert (color);
+<<<<<<< HEAD
 let answer6 = prompt('Guess what is my favarite color');
 answer6 = answer6.toLowerCase();
+=======
+let answer6 = 'null';
+function question7(){
+ answer6 = prompt('Guess what is my favarite color');
+answer6 = answer6.toLocaleLowerCase();
+>>>>>>> fdf35c3222141df60b02376ca37854ae477ca0c1
 for( let i=0 ;(i <=5 &&!(answer6 ==='white') ) ; i++){
 
   switch(answer6 ){
@@ -153,9 +187,12 @@ if(answer6 === 'white'){
 if(answer6 !== 'white'){
   alert('the right answer is white');
 }
+} 
+question7();
+
 alert('Your score is' + score);
 alert('Have agood time in the Website');
-
+console.log(question7());
 //END OF CODE
 
 // {break;}
