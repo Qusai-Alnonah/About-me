@@ -27,7 +27,9 @@ default:
 }
 question1();
 
-let answer1 = prompt('Guess by ansewer yes or no do i wont to be agreat Developer in sha\'a allh');
+let answer1 = 'null';
+function question2(){
+  answer1 = prompt('Guess by ansewer yes or no do i wont to be agreat Developer in sha\'a allh');
 answer1 = answer1.toLowerCase();
 switch(answer1){
 case 'yes':
@@ -46,6 +48,8 @@ case 'maybe':
 default:
   alert('our profit say اعقل وتوكل');
 }
+}
+question2();
 
 let answer2 = prompt('Guess by ansewer yes or no do i like to help others');
 answer2 = answer2.toLocaleLowerCase();
