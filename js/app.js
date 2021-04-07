@@ -75,7 +75,9 @@ default:
 }
 question3();
 
-let answer3 = prompt('Guess by ansewer yes or no do i hit Animals');
+let answer3 = 'null';
+function question4(){
+ answer3 = prompt('Guess by ansewer yes or no do i hit Animals');
 answer3 = answer3.toLocaleLowerCase();
 switch(answer3){
 case 'yes':
@@ -95,6 +97,9 @@ case 'maybe':
 default:
   alert('you dont like yes or no Qustion as me');
 }
+}
+question4();
+
 
 let answer4 = prompt('Guess by ansewer yes or no do iam Slowly with right programes');
 answer4 = answer4.toLocaleLowerCase();
