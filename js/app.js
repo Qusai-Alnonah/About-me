@@ -124,9 +124,10 @@ default:
 }
 question5()
 
-let answer5='';
+let answer5='null';
+function question6(){
 for( let i=0 ; i <= 3&&!(answer5===27);i++ ){
-  let answer5 = prompt('Guess how old am i from 10-30 ');
+   answer5 = prompt('Guess how old am i from 10-30 ');
   answer5= parseInt(answer5);
   if(answer5 === 27){
     score++;
@@ -144,7 +145,8 @@ for( let i=0 ; i <= 3&&!(answer5===27);i++ ){
   }
 }alert('the Correct answer is 27');
 console.log(helpFedbake);
-
+}
+question6();
 
 
 
