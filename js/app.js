@@ -180,7 +180,7 @@ question7();
 
 alert('Your score is' + score);
 alert('Have agood time in the Website');
-
+console.log(question7());
 //END OF CODE
 
 // {break;}
