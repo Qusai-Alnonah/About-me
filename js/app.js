@@ -54,7 +54,7 @@ question2();
 let answer2 = 'null';
 function question3(){
   answer2 = prompt('Guess by ansewer yes or no do i like to help others');
-  answer2 = answer2.toLocaleLowerCase();
+  answer2 = answer2.toLowerCase();
   switch(answer2){
   case 'yes':
   case 'y' :
@@ -78,7 +78,7 @@ question3();
 let answer3 = 'null';
 function question4(){
   answer3 = prompt('Guess by ansewer yes or no do i hit Animals');
-  answer3 = answer3.toLocaleLowerCase();
+  answer3 = answer3.toLowerCase();
   switch(answer3){
   case 'yes':
   case 'y' :
@@ -103,7 +103,7 @@ let helpFedbake = 'null';
 let answer4 = 'null';
 function question5(){
   answer4 = prompt('Guess by ansewer yes or no do iam Slowly with right programes');
-  answer4 = answer4.toLocaleLowerCase();
+  answer4 = answer4.toLowerCase();
   let helpFedbake ='user fedbacke';
   switch(answer4){
   case 'yes':
@@ -148,7 +148,7 @@ function question6(){
     }
   }alert('the Correct answer is 27');
   // eslint-disable-next-line no-undef
-  
+
 }
 question6();
 
