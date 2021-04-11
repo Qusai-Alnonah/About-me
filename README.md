@@ -1,4 +1,5 @@
-# Lab02-Repo
+# About me Wusai Alnonah
+
 This new repo for gussing game and today we will add new qustion and loop statmants  
 
 haneen was the driver 
