@@ -1,4 +1,4 @@
-# About me Wusai Alnonah
+# About me Qusai Alnonah
 
 This new repo for gussing game and today we will add new qustion and loop statmants  
 
