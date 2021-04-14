@@ -1,5 +1,7 @@
 header h1{
     color: blue;
+    background-color: antiquewhite;  
+
 }
 
 main ul{
@@ -9,4 +11,8 @@ main ul{
 
 footer{
     text-align: center; ;
+}
+
+header h2{
+    color: chartreuse;
 }
